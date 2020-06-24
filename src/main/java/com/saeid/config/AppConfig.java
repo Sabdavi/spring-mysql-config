@@ -13,7 +13,7 @@ import org.springframework.transaction.TransactionManager;
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan("com.saeid")
+//@ComponentScan("com.saeid")
 @EnableJdbcRepositories(basePackages = "com.saeid.repository")
 public class AppConfig extends AbstractJdbcConfiguration {
 
